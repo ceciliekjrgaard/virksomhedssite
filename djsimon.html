@@ -3,8 +3,113 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hvem er jeg</title>
+    <title>Djsimon.dk</title>
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/djsimon.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet" />
   </head>
-  <body></body>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="djsimon">Djsimon.dk</div>
+
+        <div class="menu-area">
+          <button class="menu-toggle" aria-label="Åbn menu">☰</button>
+          <nav class="main-nav">
+            <ul>
+              <li><a href="djsimon.html">Hvem er jeg</a></li>
+              <li><a href="event.html">Events</a></li>
+              <li><a href="international.html">International</a></li>
+              <li><a href="kontakt.html">Book her</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="hvem" class="intro">
+        <div class="text">
+          <h1>HVEM ER JEG?</h1>
+          <p><em>DJ Simon</em></p>
+        </div>
+
+        <div class="image">
+          <div class="photo-round">
+            <img src="img/headerbillede.emily.webp" alt="DJ Simon" />
+          </div>
+        </div>
+      </section>
+
+      <section class="fra-barstol">
+        <h2>Fra barstol til DJ pult</h2>
+        <p>
+          Jeg har altid haft musikken som en fast følgesvend. I mine unge år rejste jeg rundt i Europa som DJ og spillede i alt fra små klubber til større arrangementer. Det var en tid fyldt med eventyr, nye mennesker og den særlige følelse af at stå
+          bag pulten og skabe øjeblikke, der får folk til at glemme alt omkring sig. Da jeg senere slog mig ned i Roskilde og ejede en pub gennem flere år, nød jeg fællesskabet og atmosfæren, men inderst inde kunne jeg mærke, at jeg savnede den
+          energi, kun musikken kunne give mig.
+        </p>
+        <p>
+          For nogen år tilbage besluttede jeg derfor at vende tilbage til DJ-livet. Det viste sig hurtigt at være den bedste beslutning, jeg kunne tage. Siden da har jeg spillet til firmafester, studenterfester, ungdomsfester, julefrokoster og alle
+          andre begivenheder, hvor folk har brug for god stemning. Jeg spiller ikke bare musik – jeg lever mig ind i hvert arrangement, læser publikum og mærker, hvad der mangler for at løfte festen. Musikken skal tilpasses, ikke bare afspilles. Det
+          er sådan, man skaber aftener, der bliver husket.
+        </p>
+      </section>
+      <section class="musik-sideomside">
+        <div class="musik-billede">
+          <img src="img/sorthvid.emily.webp" alt="DJ Simon spiller musik" />
+        </div>
+
+        <div class="musik-tekst">
+          <h2>Musik med personlighed og nærvær</h2>
+          <p>Jeg spiller ikke bare musik, jeg lever mig ind i hvert arrangement, læser publikum og mærker, hvad der mangler for at løfte festen. Musikken skal tilpasses, ikke bare afspilles. Det er sådan, man skaber aftener, der bliver husket.</p>
+          <p>For mig handler DJ-rollen om meget mere end at trykke play. Jeg skaber kontakt til gæsterne og bygger stemningen op lag for lag. Jeg går op i detaljerne, rytmen, energien og den måde rummet reagerer på musikken.</p>
+          <p>Jeg elsker at ramme det perfekte track på det rette tidspunkt og bruger min erfaring fra både klubmiljøer og festscener til at få folk ud på dansegulvet.</p>
+        </div>
+      </section>
+    </main>
+
+    <!-- Script skal stå her -->
+    <!-- <script>
+      const toggle = document.querySelector(".menu-toggle");
+      const nav = document.querySelector(".main-nav");
+
+      // Åbn/luk ved klik
+      toggle.addEventListener("click", () => {
+        nav.classList.toggle("open");
+      });
+
+      // Luk når man klikker på et link
+      nav.querySelectorAll("a").forEach((link) => {
+        link.addEventListener("click", () => {
+          nav.classList.remove("open");
+        });
+      });
+    </script> -->
+  </body>
+  <footer>
+    <div class="footer-section h1">
+      <h1>Trustpilot anmeldelser</h1>
+      <div class="trustpilot-reviews">
+        <div class="trustpilot-review">
+          <div class="trustpilot-stars">★★★★★</div>
+          <p>"Fantastisk DJ – gjorde vores bryllup uforglemmeligt!"</p>
+        </div>
+        <div class="trustpilot-review">
+          <div class="trustpilot-stars">★★★★☆</div>
+          <p>"Super musik og professionel service."</p>
+        </div>
+        <div class="trustpilot-review">
+          <div class="trustpilot-stars">★★★★★</div>
+          <p>"Vi kunne ikke have ønsket os en bedre oplevelse."</p>
+        </div>
+      </div>
+    </div>
+    <div class="social-links">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">TikTok</a>
+    </div>
+  </footer>
 </html>
-<script src="js/login.js"></script>
