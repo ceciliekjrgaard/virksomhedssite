@@ -82,8 +82,8 @@ header {
 
 html,
 body {
-  margin: 5px;
-  padding: 5px;
+  margin: 20px;
+  padding: 20px;
   height: 100%;
 }
 .h1 {
@@ -102,7 +102,7 @@ body {
 
 .p {
   font-family: Ibarra Real Nova;
-  font-size: 14px;
+  font-size: 12px;
   max-width: 600px;
   margin-bottom: 30px;
   line-height: 0.8cm;
@@ -135,7 +135,7 @@ body {
 
   .p {
     font-family: Ibarra Real Nova;
-    font-size: 18px;
+    font-size: 16px;
     max-width: 600px;
     margin-bottom: 30px;
     line-height: 0.8cm;
