@@ -90,12 +90,14 @@ body {
   font-family: Instrument Serif;
   font-size: 25px;
   margin-bottom: 20px;
+  margin: 2em;
 }
 .h2 {
   font-family: Instrument Serif;
   font-size: 30px;
   margin-bottom: 20px;
   font-style: italic;
+  margin: 2em;
 }
 
 .p {
@@ -103,6 +105,8 @@ body {
   font-size: 14px;
   max-width: 600px;
   margin-bottom: 30px;
+  line-height: 0.8cm;
+  margin: 2em;
 }
 
 .img {
@@ -111,7 +115,7 @@ body {
   border-radius: 8px;
 }
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   html,
   body {
     margin: 5px;
@@ -134,6 +138,8 @@ body {
     font-size: 18px;
     max-width: 600px;
     margin-bottom: 30px;
+    line-height: 0.8cm;
+    margin: 2em;
   }
 
   .img {
