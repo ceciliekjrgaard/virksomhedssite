@@ -290,12 +290,10 @@ Sociale medier .social-links {
 }
 
 .btn {
-  display: inline-block;
   padding: 12px 20px;
   background-color: #e5effa;
   color: #00b67a;
   border-radius: 999px;
-  text-decoration: none;
   font-weight: 300;
   box-shadow: #00b67a;
   transition: transform 0.2s ease;

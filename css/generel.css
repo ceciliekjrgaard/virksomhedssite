@@ -80,6 +80,105 @@ header {
   background-color: rgba(66, 145, 224, 0.2);
 }
 
+footer {
+  background-color: rgba(166, 198, 229, 0.95);
+  color: #000;
+  padding: 40px 20px;
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.footer-section {
+  margin-bottom: 30px;
+}
+
+.footer-section h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: "Instrument Serif";
+  align-items: center;
+  text-align: center;
+}
+
+.trustpilot-reviews {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.trustpilot-review {
+  background-color: #e5effa;
+  padding: 20px;
+  border-radius: 8px;
+  flex: 1 1 250px;
+  max-width: 300px;
+  box-sizing: border-box;
+}
+
+.trustpilot-stars {
+  color: #00b67a;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.trustpilot-review p {
+  font-size: 14px;
+  line-height: 1.4;
+  color: #000;
+}
+
+.contact-grid {
+  background-color: #e0f0ff;
+  padding: 60px 0;
+  font-family: sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+  margin: 10px;
+  padding: 24px;
+  gap: 2rem;
+  align-items: center;
+  text-align: left;
+}
+
+.grid-item p {
+  margin: 6px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.grid-item a {
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+.grid-item a:hover {
+  color: #fff;
+}
+
+.grid-item a {
+  color: #000;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Ibarra Real Nova;
+}
+
+.btn {
+  padding: 12px 20px;
+  background-color: #e5effa;
+  color: #00b67a;
+  border-radius: 999px;
+  font-weight: 300;
+  box-shadow: #00b67a;
+  transition: transform 0.2s ease;
+}
+
 @media (min-width: 700px) {
   .menu-toggle {
     display: none;
