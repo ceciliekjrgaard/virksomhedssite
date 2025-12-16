@@ -3,8 +3,102 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kontakt</title>
+    <title>Djsimon.dk</title>
+
+    <link rel="stylesheet" href="css/generel.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/emily.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap" rel="stylesheet" />
   </head>
-  <body></body>
+  <header>
+    <div class="header-container">
+      <img src="img.em/simondj.svg" alt="" />
+      <div class="djsimon">Djsimon.dk</div>
+
+      <div class="menu-area">
+        <button class="menu-toggle" aria-label="Åbn menu">☰</button>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="djsimon.html">Hvem er jeg</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="international.html">International</a></li>
+            <li><a href="kontakt.html">Book her</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="kontakt">
+      <h2>Kontakt</h2>
+      <p>Få et uforpligtende tilbud til din fest med DJ Simon<br />(Svartid normalt inden for 6 timer)</p>
+
+      <form>
+        <div class="form-group">
+          <label for="navn">Navn *</label>
+          <input type="text" id="navn" name="navn" required />
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail *</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <div class="form-group">
+          <label for="telefon">Telefon</label>
+          <input type="tel" id="telefon" name="telefon" />
+        </div>
+
+        <div class="form-group">
+          <label for="type">Arrangementstype</label>
+          <select id="type" name="type">
+            <option value="">Vælg venligst...</option>
+            <option value="bryllup">Bryllup</option>
+            <option value="privatfest">Julefrokost</option>
+            <option value="privatfest">Fødselsdag</option>
+            <option value="firmafest">Firmafest</option>
+            <option value="firmafest">Andet fest</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="antal">Forventet antal gæster</label>
+          <select id="antal" name="antal">
+            <option value="">Vælg venligst...</option>
+            <option value="under50">Under 100 gæster</option>
+            <option value="50-100">Mellem 100-200 gæster</option>
+            <option value="over100">Over 200 gæster</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dato">Dato *</label>
+          <input type="date" id="dato" name="dato" required />
+        </div>
+
+        <div class="form-group">
+          <label for="sted">VIGTIGT! : Sted, Postnr. eller By *</label>
+          <input type="text" id="sted" name="sted" required />
+        </div>
+
+        <div class="form-group">
+          <label for="tidspunkt">Tidspunkt for optræden *</label>
+          <input type="text" id="tidspunkt" name="tidspunkt" required />
+        </div>
+
+        <div class="form-group">
+          <label for="kommentar">Kommentarer</label>
+          <textarea id="kommentar" name="kommentar" rows="4"></textarea>
+        </div>
+
+        <div class="form-group">
+          <label for="lokation">Hvor: Hotel eller Restaurant / Forsamlingshus / Egen Have? *</label>
+          <input type="text" id="lokation" name="lokation" required />
+        </div>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
 </html>
-<script src="js/login.js"></script>
