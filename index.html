@@ -3,18 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/generel.css" />
-    <link rel="stylesheet" href="css/layout.css" />
     <link rel="stylesheet" href="css/mathilde.css" />
 
     <title>Forside</title>
   </head>
 
   <body>
-    <header></header>
+    <header>
+      <nav class="nav">
+        <a class="djsimonlogo" href="index.html">
+          <img src="img/djsimon.svg" alt="" />
+        </a>
+        <a class="nav-logo" href="index.html">Djsimon.dk</a>
+
+        <ul class="nav-links">
+          <li><a href="event.html">Events</a></li>
+          <li><a href="hvem-er-jeg.html">Hvem er jeg</a></li>
+          <li><a href="international.html">International</a></li>
+          <li><a href="book.html">Book her</a></li>
+        </ul>
+      </nav>
+    </header>
 
     <main>
-      <section class="hero_billede"></section>
+      <section class="hero_billede">
+        <div class="hero_indhold hero_hoejre">
+          <h1>Skru op for festen</h1>
+          <p>
+            <a href="kontakt.html"> Book DJ Simon til<br />dit næste event </a>
+          </p>
+        </div>
+      </section>
 
       <section class="velkommen">
         <h1>Velkommen!</h1>
@@ -26,13 +45,117 @@
         <p>
           Uanset om det gælder en reception, loungemusik, firmafest, det helt
           store klassiske hvide bryllup eller en anden mærkedag, står jeg for
-          alt hvad der har med lyd & lys at gøre.
+          alt hvad der har med lyd & lys at gøre. Så bare puds danseskoene og
+          find festhumøret frem, mens I lader mig sætte rammerne for Jeres fest.
+          Det er slet ikke for tidligt at booke musikken til din fest i 2026, da
+          de første bookinger allerede er lagt i kalenderen.
         </p>
 
-        <button class="knap_mathilde">Læs mere om events her</button>
+        <div class="events-grid">
+          <article class="event-card">
+            <img src="img/bryllupbillede_mathilde.png" alt="bryllup" />
+            <h2>BRYLLUP</h2>
+            <p>
+              Et bryllup er en af livets største og vigtigste dage, og derfor
+              skal alt naturligvis være præcis, som I drømmer om. Her kan I læse
+              mere om min bryllupspakke og de muligheder, jeg tilbyder for at
+              gøre jeres dag endnu mere speciel.
+            </p>
+          </article>
+
+          <article class="event-card">
+            <img src="img/fødselsdag_mathilde.png" alt="fødselsdag" />
+            <h2>FØDSELSDAG</h2>
+            <p>
+              En fødselsdag er en særlig anledning, der fortjener at blive
+              fejret præcis, som du ønsker det. Her kan du læse mere om min
+              fødselsdagspakke og de muligheder, jeg tilbyder for at gøre din
+              dag ekstra festlig og mindeværdig.
+            </p>
+          </article>
+
+          <article class="event-card">
+            <img src="img/firmafest_mathilde.png" alt="firmafest" />
+            <h2>FIRMAFEST</h2>
+            <p>
+              En firmafest er en vigtig begivenhed, hvor medarbejdere samles for
+              at styrke fællesskabet og fejre årets resultater. Her kan du læse
+              mere om min firmafestpakke og de muligheder, jeg tilbyder for at
+              skabe den rette stemning og en aften, som hele teamet vil huske.
+            </p>
+          </article>
+
+          <div class="event-cta">
+            <a class="knap_mathilde" href="event.html"
+              >Læs mere om events her →</a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="dj_pult">
+        <h1>Hvad kan du forvente til din fest</h1>
+        <p>
+          Hos DJ Simon får du en professionel DJ-oplevelse, der løfter enhver
+          fest og skaber minder, der varer ved. Uanset om du planlægger et
+          bryllup, en firmafest, en fødselsdag eller et privat event, leverer
+          jeg musikken, lyset og stemningen, der får dansegulvet til at leve
+          hele aftenen.
+        </p>
+        <p>
+          Jeg tilpasser altid musikken efter gæsterne og jeres ønsker, så
+          aftenen udvikler sig naturligt med dinnermusik, gode vibes og masser
+          af dans. Med professionelt lyd- og lysudstyr, stemningsfulde uplights
+          og mange års erfaring er du sikret en tryg, stabil og festlig løsning,
+          hvor alt det tekniske kører problemfrit i baggrunden.
+        </p>
+        <p>
+          Opstillingen sker altid, før gæsterne ankommer, og med en skriftlig
+          aftale og 100% festgaranti kan du læne dig tilbage og nyde aftenen
+          uden bekymringer. Jeg sørger for musikken – du sørger for at nyde
+          festen.
+        </p>
+        <img src="img/djpult_mathilde.png" alt="dj_pult" />
+      </section>
+
+      <section class="gallery">
+        <h1>GALLERY</h1>
+        <img src="img/gallery_1.png" alt="billede1" />
+        <img src="img/gallery_2.png" alt="billede2" />
+        <img src="img/gallery_3.png" alt="billede3" />
+        <img src="img/gallery_4.png" alt="billede4" />
+        <img src="img/gallery_5.png" alt="billede5" />
+        <img src="img/gallery_6.png" alt="billede6" />
+        <img src="img/gallery_7.png" alt="billede7" />
+        <img src="img/gallery_8.png" alt="billede8" />
       </section>
     </main>
 
-    <footer></footer>
+    <footer>
+      <footer>
+        <div class="footer-section h1">
+          <h1>Trustpilot anmeldelser</h1>
+          <div class="trustpilot-reviews">
+            <div class="trustpilot-review">
+              <div class="trustpilot-stars">★★★★★</div>
+              <p>"Fantastisk DJ - gjorde vores bryllup uforglemmeligt!"</p>
+            </div>
+            <div class="trustpilot-review">
+              <div class="trustpilot-stars">★★★★☆</div>
+              <p>"Super musik og professionel service."</p>
+            </div>
+            <div class="trustpilot-review">
+              <div class="trustpilot-stars">★★★★★</div>
+              <p>"Vi kunne ikke have ønsket os en bedre oplevelse."</p>
+            </div>
+          </div>
+        </div>
+        <div class="social-links">
+          <a href="#">Facebook</a>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+        </div>
+      </footer>
+    </footer>
   </body>
 </html>
