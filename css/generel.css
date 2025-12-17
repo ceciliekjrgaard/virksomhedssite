@@ -36,6 +36,7 @@ header {
 .menu-area {
   position: absolute;
   right: 20px;
+  font-family: ibarra real nova;
 }
 
 .menu-toggle {
