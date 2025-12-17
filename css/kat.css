@@ -1,10 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
 .main {
   margin: 0;
   text-align: center;
   line-height: 1.7;
 }
-@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
 
 header {
   background-color: rgba(166, 198, 229, 0.2);
@@ -230,10 +230,11 @@ header {
   html,
   .main {
     text-align: center;
-
     line-height: 1.7;
   }
-
+  body {
+    text-align: center;
+  }
   .menu-toggle {
     display: none;
   }
@@ -267,6 +268,7 @@ header {
   }
   .firmakat {
     margin-top: 5em;
+    align-items: center;
   }
   .fodskat {
     margin-top: 5em;
