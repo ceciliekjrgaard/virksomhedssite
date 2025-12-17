@@ -42,75 +42,6 @@ img {
 /* -------------------------
    3) TOP MENU (logo venstre, titel 100% centreret, links højre)
 -------------------------- */
-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 50;
-}
-
-.nav {
-  position: relative; /* vigtigt når nav-logo bliver absolute */
-  height: 78px;
-  padding: 0 18px;
-
-  display: grid;
-  grid-template-columns: auto 1fr auto;
-  align-items: center;
-
-  background: rgba(13, 96, 178, 0.13);
-  backdrop-filter: blur(8px);
-}
-
-/* venstre logo */
-.djsimonlogo {
-  justify-self: start;
-  display: inline-flex;
-  align-items: center;
-}
-
-.djsimonlogo img {
-  width: 46px;
-  height: 46px;
-  border-radius: 999px;
-}
-
-/* titel i ÆGTE midte (viewport) */
-.nav-logo {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  white-space: nowrap;
-
-  color: #96bdea;
-  font-size: 26px;
-  font-family: "Instrument Serif", serif;
-  text-decoration: none;
-}
-
-/* menu til højre */
-.nav-links {
-  justify-self: end;
-
-  list-style: none;
-  display: flex;
-  gap: 18px;
-  margin: 0;
-  padding: 0;
-}
-
-.nav-links a {
-  color: #96bdea;
-  text-decoration: none;
-  font-size: 14px;
-  font-family: "Ibarra Real Nova", serif;
-  font-style: italic;
-}
-
-.nav-links a:hover {
-  color: #96bdea;
-}
 
 /* -------------------------
    4) HERO
@@ -348,9 +279,9 @@ footer {
 }
 
 /* -------------------------
-   9) BREAKPOINT (>= 700px)
+   9) BREAKPOINT (>= 800px)
 -------------------------- */
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .nav {
     padding: 0 40px;
   }
