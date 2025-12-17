@@ -3,6 +3,94 @@
   text-align: center;
   line-height: 1.7;
 }
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+
+header {
+  background-color: rgba(166, 198, 229, 0.2);
+  border-bottom: 1px solid rgba(166, 198, 229, 0.4);
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+}
+
+.djsimon {
+  font-size: 24px;
+  font-weight: bold;
+  font-family: "Instrument Serif", serif;
+  color: rgba(154, 190, 225, 0.9);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.djsimon {
+  color: #96bdea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.djsimon:hover {
+  color: #2f6fa3;
+}
+
+.menu-area {
+  position: absolute;
+  right: 20px;
+}
+
+.menu-toggle {
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: rgba(154, 190, 225, 0.9);
+}
+
+/* Menu dropdown */
+.main-nav {
+  background-color: rgba(166, 198, 229, 0.95);
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 200px;
+  display: none;
+  padding: 10px 0;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+}
+
+.menu-area:hover .main-nav,
+.menu-area:focus-within .main-nav,
+.main-nav.open {
+  display: block;
+}
+
+.main-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.main-nav li a {
+  color: #96bdea; /* normal tekstfarve */
+  text-decoration: none;
+  transition: color 0.2s ease;
+  background: transparent; /* ingen baggrund */
+  font-size: 20px;
+}
+
+.main-nav li a:hover {
+  color: #2f6fa3; /* mørkere blå tekst på hover */
+  background: transparent; /* sikrer ingen baggrund ændring */
+}
+
 .bryllupkat {
   margin-top: 5em;
 }
@@ -15,6 +103,7 @@
 .tekst {
   margin: 2em;
   margin-bottom: 4em;
+  font-family: Ibarra Real Nova;
 }
 .knapkat {
   padding: 0.4em 2em;
@@ -145,6 +234,34 @@
     line-height: 1.7;
   }
 
+  .menu-toggle {
+    display: none;
+  }
+
+  /* Menu-område skal ikke være absolut */
+  .menu-area {
+    position: static;
+  }
+
+  /* Vis navigationen inline */
+  .main-nav {
+    display: block;
+    position: static;
+    background: none;
+    box-shadow: none;
+    padding: 0;
+    width: auto;
+  }
+
+  .main-nav ul {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+  }
+
+  .main-nav li {
+    padding: 0;
+  }
   .bryllupkat {
     margin-top: 5em;
   }
@@ -157,6 +274,7 @@
   .tekst {
     margin: 2em;
     margin-bottom: 2em;
+    font-family: Ibarra Real Nova;
   }
   .knapkat {
     padding: 0.4em 2em;
