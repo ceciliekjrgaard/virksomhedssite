@@ -177,8 +177,22 @@ footer {
   box-shadow: #00b67a;
   transition: transform 0.2s ease;
 }
+.h2 {
+  font-family: Instrument Serif;
+  font-size: 30px;
+  margin-bottom: 20px;
+}
 
-@media (min-width: 700px) {
+.p {
+  font-family: Ibarra Real Nova;
+  font-size: 18px;
+  max-width: 600px;
+  margin-bottom: 30px;
+  line-height: 0.8cm;
+  margin: 2em;
+}
+
+@media (min-width: 800px) {
   .menu-toggle {
     display: none;
   }
