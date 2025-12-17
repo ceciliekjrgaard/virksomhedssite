@@ -4,80 +4,133 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="kat.css" />
+    <link rel="stylesheet" href="css/kat.css" />
+    <link rel="stylesheet" href="css/generel.css" />
   </head>
   <body>
     <header>
-      <section>
-        <img src="" alt="" />
-        <div>
-          <h1>EVENTS</h1>
-        </div>
+      <div class="menu-area">
+        <button class="menu-toggle" aria-label="Åbn menu">☰</button>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="djsimon.html">Hvem er jeg</a></li>
+            <li><a href="event.html">Events</a></li>
+            <li><a href="international.html">International</a></li>
+            <li><a href="kontakt.html">Book her</a></li>
+          </ul>
+        </nav>
+      </div>
+      <section class="hero">
+        <video autoplay muted loop class="hero-video">
+          <source src="imgkat/FB77A010-7C72-47B3-A108-F095A50C06E0.mp4" />
+        </video>
+        <div class="overlay"></div>
+        <div class="hero-content"><h1 class="h1">EVENTS</h1></div>
       </section>
     </header>
-    <main>
-      <section>
-        <h2>Skræddersy dit eget event</h2>
-        <p>
-          Hos DJ Simon får du ikke bare musik du får en oplevelse, der passer
-          til netop dit event. Sammen planlægger vi aftenens program, så du kan
-          vælge musikstil, stemning, tempo og særlige ønsker. Uanset om du vil
-          starte med lounge og slutte med dansegulv, eller have et mix af hits
-          og personlige favoritter, sørger DJ Simon for at din fest bliver
-          præcis som du har forestillet dig. Priserne varierer alt efter dine
-          ønsker og behov, så du får en løsning skræddersyet til dit event.
+    <main class="main">
+      <section class="skrader">
+        <h2 class="h2">Skræddersy dit eget event</h2>
+        <p class="tekst">
+          Hos DJ Simon får du ikke bare musik du får en oplevelse, der passer til netop dit event. Sammen planlægger vi aftenens program, så du kan vælge musikstil, stemning, tempo og særlige ønsker. Uanset om du vil starte med lounge og slutte med
+          dansegulv, eller have et mix af hits og personlige favoritter, sørger DJ Simon for at din fest bliver præcis som du har forestillet dig. Priserne varierer alt efter dine ønsker og behov, så du får en løsning skræddersyet til dit event.
           Kontakt os for et tilbud, der matcher både dit budget og din fest.
         </p>
-        <button class="knapkat">Tag kontakt her &#8594;</button>
+        <a href="kontakt.html" class="knapkat">Tag kontakt her &#8594;</a>
       </section>
+      <section class="Gallery">
+        <h2 class="h2">Gallery</h2>
+        <div class="slider">
+          <div class="images">
+            <input type="radio" name="slider" id="img2" checked />
+            <input type="radio" name="slider" id="img3" />
+            <input type="radio" name="slider" id="img4" />
+            <input type="radio" name="slider" id="img5" />
+            <input type="radio" name="slider" id="img6" />
+            <input type="radio" name="slider" id="img7" />
+
+            <img src="imgkat/2.png" class="m2" alt="img2" />
+            <img src="imgkat/3.png" class="m3" alt="img3" />
+            <img src="imgkat/4.png" class="m4" alt="img4" />
+            <img src="imgkat/5.png" class="m5" alt="img5" />
+            <img src="imgkat/6.png" class="m6" alt="img6" />
+            <img src="imgkat/7.png" class="m7" alt="img7" />
+          </div>
+        </div>
+
+        <div class="dots">
+          <label for="img2"></label>
+          <label for="img3"></label>
+          <label for="img4"></label>
+          <label for="img5"></label>
+          <label for="img6"></label>
+          <label for="img7"></label>
+        </div>
+      </section>
+      <script src="script.js"></script>
       <section class="bryllupkat">
-        <h2>Bryllupper</h2>
+        <h2 class="h2">Bryllupper</h2>
         <p>
-          Til bryllupper tilbyder vi en særlig bryllupspakke, der sætter fokus
-          på romantik, elegance og de små detaljer, der gør dagen mindeværdig.
-          Vi laver en smuk og stilren “hvid” opstilling, der passer perfekt ind
-          i den klassiske bryllupsstemning og giver et eksklusivt visuelt
-          udtryk. Som en ekstra romantisk detalje inkluderer vi “Hjertet på
-          dansegulvet” – en lysopsætning, der skaber en helt speciel stemning,
-          og som især gør brudevalsen endnu mere magisk. Uplights tilpasses
-          jeres farvetema, så hele rummet harmonerer med brylluppets stil.
-          Derudover tilbyder vi et specialdesignet brudevals-remix, som
-          skæddersys præcis efter jeres ønsker, uanset om I ønsker en klassisk
-          version, et moderne twist eller en kombination.
+          Til bryllupper tilbyder vi en særlig bryllupspakke, der sætter fokus på romantik, elegance og de små detaljer, der gør dagen mindeværdig. Vi laver en smuk og stilren “hvid” opstilling, der passer perfekt ind i den klassiske bryllupsstemning
+          og giver et eksklusivt visuelt udtryk. Som en ekstra romantisk detalje inkluderer vi “Hjertet på dansegulvet” – en lysopsætning, der skaber en helt speciel stemning, og som især gør brudevalsen endnu mere magisk. Uplights tilpasses jeres
+          farvetema, så hele rummet harmonerer med brylluppets stil. Derudover tilbyder vi et specialdesignet brudevals-remix, som skæddersys præcis efter jeres ønsker, uanset om I ønsker en klassisk version, et moderne twist eller en kombination.
         </p>
       </section>
 
       <section class="firmakat">
-        <h2>Firmafester & Sæsonens Events</h2>
+        <h2 class="h2">Firmafester & Sæsonens Events</h2>
         <p>
-          DJ Simon leverer den perfekte musikoplevelse til alle typer
-          erhvervsarrangementer – hvad enten det er firmafest, julefrokost,
-          påskefrokost, sommerfest eller kickoff-event. Med professionel
-          dinnermusik, fed dansemusik og et fleksibelt lyd- og lyssetup skaber
-          vi en stemning, der samler kollegerne og får alle ud på dansegulvet.
-          Musikken tilpasses virksomhedens stil og medarbejdergruppen, og
-          uplights kan farves efter jeres tema eller sæsonens farver. Opstilling
-          sker altid inden gæsterne ankommer, og med en skriftlig aftale og DJ
-          Simon bag pulten er I garanteret en fest, der spiller fra start til
-          slut.
+          DJ Simon leverer den perfekte musikoplevelse til alle typer erhvervsarrangementer hvad enten det er firmafest, julefrokost, påskefrokost, sommerfest eller kickoff-event. Med professionel dinnermusik, fed dansemusik og et fleksibelt lyd- og
+          lyssetup skaber vi en stemning, der samler kollegerne og får alle ud på dansegulvet. Musikken tilpasses virksomhedens stil og medarbejdergruppen, og uplights kan farves efter jeres tema eller sæsonens farver. Opstilling sker altid inden
+          gæsterne ankommer, og med en skriftlig aftale og DJ Simon bag pulten er I garanteret en fest, der spiller fra start til slut.
         </p>
       </section>
 
-      <section class="fødskat">
-        <h2>Fødselsdage & Runde Dage</h2>
+      <section class="fodskat">
+        <h2 class="h2">Fødselsdage & Runde Dage</h2>
         <p>
-          Gør din fødselsdag uforglemmelig med DJ Simon, der leverer den
-          perfekte blanding af dinnermusik og festlige hits, som får alle
-          generationer ud på dansegulvet. Uanset om du fejrer 18, 30, 40, 50 år
-          eller en hvilken som helst anden milepæl – tilpasses musikken helt
-          efter dine ønsker og gæsternes stemning. Vi medbringer professionelt
-          lyd- og lysudstyr samt uplights, der skaber den rette feststemning i
-          rummet. Opstilling sker altid inden gæsterne ankommer, og du får en
-          skriftlig aftale og 100% festgaranti, så du trygt kan fokusere på at
-          nyde din dag.
+          Gør din fødselsdag uforglemmelig med DJ Simon, der leverer den perfekte blanding af dinnermusik og festlige hits, som får alle generationer ud på dansegulvet. Uanset om du fejrer 18, 30, 40, 50 år eller en hvilken som helst anden milepæl –
+          tilpasses musikken helt efter dine ønsker og gæsternes stemning. Vi medbringer professionelt lyd- og lysudstyr samt uplights, der skaber den rette feststemning i rummet. Opstilling sker altid inden gæsterne ankommer, og du får en skriftlig
+          aftale og 100% festgaranti, så du trygt kan fokusere på at nyde din dag.
         </p>
       </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div class="footer-section h1">
+        <h1>Trustpilot anmeldelser</h1>
+        <div class="trustpilot-reviews">
+          <div class="trustpilot-review">
+            <div class="trustpilot-stars">★★★★★</div>
+            <p>"Fantastisk DJ gjorde vores bryllup uforglemmeligt!"</p>
+          </div>
+          <div class="trustpilot-review">
+            <div class="trustpilot-stars">★★★★☆</div>
+            <p>"Super musik og professionel service."</p>
+          </div>
+          <div class="trustpilot-review">
+            <div class="trustpilot-stars">★★★★★</div>
+            <p>"Vi kunne ikke have ønsket os en bedre oplevelse."</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-item address">
+          <p>DJ Simon Start</p>
+          <p>Grydemosevej 31b</p>
+          <p>3060 Espergærde</p>
+          <p>Danmark</p>
+
+          <div class="grid-item contact">
+            <a href="#kontakt" class="btn">Kontakt</a>
+          </div>
+        </div>
+        <div class="grid-item a">
+          <p><a href="61454560">Telefon</a></p>
+          <p><a href="https://www.instagram.com/djsimon.dk/">Instagram</a></p>
+          <p><a href="mailto:info@djsimonstart.dk">Email</a></p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
