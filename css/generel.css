@@ -23,6 +23,15 @@ header {
   left: 50%;
   transform: translateX(-50%);
 }
+.djsimon {
+  color: #96bdea;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.djsimon:hover {
+  color: #2f6fa3;
+}
 
 .menu-area {
   position: absolute;
