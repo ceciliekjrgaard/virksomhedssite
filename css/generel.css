@@ -1,6 +1,7 @@
 /* HER SKRIVES MOBILE-FIRST GENEREL STYLING */
 @import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400..700;1,400..700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap");
+
 header {
   background-color: rgba(166, 198, 229, 0.2);
   border-bottom: 1px solid rgba(166, 198, 229, 0.4);
@@ -8,12 +9,9 @@ header {
 
 .header-container {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-  position: relative;
-  background-color: rgba(166, 198, 229, 0.2);
-  border-bottom: 1px solid rgba(166, 198, 229, 0.4);
 }
 
 .djsimon {
@@ -59,25 +57,25 @@ header {
 }
 
 .main-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
-.main-nav li {
-  padding: 10px 20px;
-}
-
-.main-nav a {
+.main-nav li a {
+  color: #96bdea; /* normal tekstfarve */
   text-decoration: none;
-  font-family: "Instrument Serif", serif;
-  font-size: 18px;
-  color: #222;
-  display: block;
+  transition: color 0.2s ease;
+  background: transparent; /* ingen baggrund */
+  font-size: 20px;
 }
 
-.main-nav a:hover {
-  background-color: rgba(66, 145, 224, 0.2);
+.main-nav li a:hover {
+  color: #2f6fa3; /* mørkere blå tekst på hover */
+  background: transparent; /* sikrer ingen baggrund ændring */
 }
 
 footer {
@@ -95,6 +93,7 @@ footer {
   font-size: 25px;
   margin-bottom: 15px;
   font-family: "Instrument Serif";
+
   align-items: center;
   text-align: center;
 }

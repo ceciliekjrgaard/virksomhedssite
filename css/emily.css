@@ -7,7 +7,7 @@ body {
   color: #e5effa;
 }
 /* Header */
-header {
+/* header {
   background-color: rgba(166, 198, 229, 0.2);
   border-bottom: 1px solid rgba(166, 198, 229, 0.4);
 }
@@ -17,7 +17,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px 30px;
-}
+} */
 html {
   margin: 5px;
   padding: 5px;
@@ -227,15 +227,17 @@ em {
     margin: 0;
     padding: 0;
   }
-  .main-nav a {
-    color: #96bdea;
+  .main-nav li a {
+    color: #96bdea; /* normal tekstfarve */
     text-decoration: none;
-    font-size: 16px;
-    font-family: "Ibarra Real Nova", serif;
-    font-style: italic;
+    transition: color 0.2s ease;
+    background: transparent; /* ingen baggrund */
+    font-size: 20px;
   }
-  .main-nav a:hover {
-    color: #96bdea;
+
+  .main-nav li a:hover {
+    color: #2f6fa3; /* mørkere blå tekst på hover */
+    background: transparent; /* sikrer ingen baggrund ændring */
   }
   .fra-barstol {
     display: grid;
@@ -444,4 +446,12 @@ Kontakt side desktop */
   }
 
   /* kontakt side mobilsite*/
+}
+.footer-section h1 {
+  font-size: 25px;
+  margin-bottom: 15px;
+  font-family: "Instrument Serif";
+  color: #222;
+  align-items: center;
+  text-align: center;
 }
