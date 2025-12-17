@@ -318,6 +318,16 @@ Sociale medier .social-links {
   align-items: center;
   line-height: 0.8cm;
   margin: 2em;
+  text-align: center;
+}
+.speak1 {
+  line-height: 0.8cm;
+}
+.speak2 {
+  line-height: 0.8cm;
+}
+.speak3 {
+  line-height: 0.8cm;
 }
 
 @media (min-width: 800px) {
@@ -381,6 +391,7 @@ Sociale medier .social-links {
     padding: 40px 20px;
     box-sizing: border-box;
     grid-column: span 1;
+    line-height: 0.8cm;
   }
   .speak2 {
     width: 100%;
@@ -390,6 +401,7 @@ Sociale medier .social-links {
     padding: 40px 20px;
     box-sizing: border-box;
     grid-column: span 1;
+    line-height: 0.8cm;
   }
   .speak3 {
     width: 100%;
@@ -399,6 +411,7 @@ Sociale medier .social-links {
     box-sizing: border-box;
     grid-column: span 1;
     margin-bottom: 4em;
+    line-height: 0.8cm;
   }
 
   /*
